@@ -1,0 +1,53 @@
+# ==================== Stock Terminal - 统一依赖 ====================
+# Python 3.10 专属环境
+
+# ----- 核心GUI框架 -----
+PyQt5==5.15.9
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.13.0
+pyqtgraph==0.13.3
+
+# ----- 金融数据 (vnpy核心) -----
+vnpy==3.8.0
+
+# ----- 数据处理 -----
+numpy==1.24.3
+pandas==2.0.3
+scipy==1.10.1
+scikit-learn==1.3.0
+
+# ----- 数据库 -----
+pymongo==4.4.1
+pymysql==1.1.0
+redis==5.0.0
+sqlalchemy==2.0.19
+
+# ----- 爬虫相关 -----
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+selenium==4.11.2
+scrapy==2.9.0
+fake-useragent==1.4.0
+
+# ----- AI/机器学习 -----
+torch==2.0.1
+lightgbm==4.0.0
+xgboost==1.7.6
+
+# ----- K线图表 -----
+mplfinance==0.12.9b0
+matplotlib==3.7.2
+plotly==5.15.0
+
+# ----- 工具库 -----
+loguru==0.7.0
+pydantic==2.1.1
+apscheduler==3.10.1
+openpyxl==3.1.2
+
+# ----- 打包 -----
+pyinstaller==5.13.0
+
+# ----- OpenBB (可选) -----
+# openbb==3.2.0
